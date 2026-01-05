@@ -1,15 +1,13 @@
-import json
-
 def lambda_handler(event, context):
     # TODO implement
-
     response_data = {
-        "message":"Hello! yor GET request was received successfully" ,
-        "Status":"Success"
-        }
+    "message":"Hello! yor GET request was received successfully" ,
+    "Status":"Success"
+    }
 
     return {
-        'statusCode': 200,
-        "headers":{"Content_type": "application/json"},
-        'body': json.dumps(response_data)
-    }
+    "statusCode": 200,
+    "headers":{
+        "Content_type": "application/json"},
+    "body": json.dumps(response_data)
+}
