@@ -1,7 +1,7 @@
 def lambda_handler(event, context):
     # TODO implement
     response_data = {
-    "message":"Hello! yor GET request was received successfully" ,
+    "message":"Hello! your GET request was received successfully" ,
     "Status":"Success"
     }
 
